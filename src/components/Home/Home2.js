@@ -20,14 +20,14 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> C++ and C# </b>
               </i>
               <br />
               <br />
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  Game and Game Engine Development
                 </b>
               </i>
               <br />
@@ -35,11 +35,11 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Modern C++ and C# Frameworks</b>
               </i>
                 &nbsp; like
               <i>
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> OpenGL, Volcan and Unity</b>
               </i>
             </p>
           </Col>
@@ -58,7 +58,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/BryceStandley"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,7 +68,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/BryceStandley"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/bryce-standley/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/BryceStandleyyt/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
