@@ -1,0 +1,17 @@
+{
+"companyName": "TerraBite Team",
+"productName": "The Model Citizen",
+"productVersion": "0.5.7",
+"dataUrl": "TheModelCitizen-WebGL-0.5.7.data.unityweb",
+"wasmCodeUrl": "TheModelCitizen-WebGL-0.5.7.wasm.code.unityweb",
+"wasmFrameworkUrl": "TheModelCitizen-WebGL-0.5.7.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "TheModelCitizen-WebGL-0.5.7.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.2f1"
+}
