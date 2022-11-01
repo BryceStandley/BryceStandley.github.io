@@ -8,7 +8,7 @@ async function SendContactMessage(event)
     const senderMsg = document.getElementById("message").value;
 
     const messageJson = {'name':senderName, 'email':senderEmail, 'message':senderMsg};
-    const webhookUrl = 'https://api.vectorpixel.net:5050/validate/hooks'
+    const webhookUrl = 'https://api.vectorpixel.net/validate/hooks/'
 
     const response = await fetch(webhookUrl, {
       method: 'POST',
