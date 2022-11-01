@@ -7,6 +7,12 @@ async function SendContactMessage(event)
     const senderName = document.getElementById("name").value;
     const senderMsg = document.getElementById("message").value;
 
+    if(senderName === '' || senderEmail === '' || senderMsg === '')
+    {
+      alert('Please enter the required contact information.');
+      return;
+    }
+
     const messageJson = {'name':senderName, 'email':senderEmail, 'message':senderMsg};
     const webhookUrl = 'https://api.vectorpixel.net/validate/hooks/'
 
