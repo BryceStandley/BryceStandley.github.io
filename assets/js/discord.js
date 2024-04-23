@@ -13,6 +13,17 @@ async function SendContactMessage(event)
       return;
     }
 
+    const urlName = senderName.value.replace(' ', '%20');
+    const urlBody = senderMsg.value.replace(' ', '%20') + '%0BContact%20at%20' + senderEmail.value;
+    const mailtoURL = 'mailto:bryce@vectorpixel.net?subject=Portfolio%20Contact%20Form%20From%20' + urlName + '&body=' +urlBody;
+
+    window.open(mailtoURL);
+
+    senderName.value = '';
+    senderEmail.value = '';
+    senderMsg.value = '';
+    
+    /*
     const messageJson = {'name':senderName.value, 'email':senderEmail.value, 'message':senderMsg.value};
     const webhookUrl = 'https://api.vectorpixel.net/validate/hooks/'
 
@@ -30,7 +41,7 @@ async function SendContactMessage(event)
         alert('There was an error! Try again later!');
       }
     });
-
+    */
     
       
       
